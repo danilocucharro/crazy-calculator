@@ -1,4 +1,3 @@
-from src.drivers.numpy_handler import NumpyHandler
 from pytest import raises
 from .calculator_3 import Calculator_3
 from typing import Dict, List

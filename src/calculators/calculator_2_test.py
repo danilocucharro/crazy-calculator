@@ -7,6 +7,7 @@ class MockRequest:
     def __init__(self, body: Dict) -> None:
         self.json = body
 
+# Estou simulando que o resultado é 3
 class MockDriverHandler:
     def standard_derivation(self, numbers: List[float]) -> float:
         return 3
